@@ -1,0 +1,48 @@
+# Passo a passo para criar um projeto Django
+
+1. **Instalar o Django**:
+   - Certifique-se de que o Python está instalado em seu sistema.
+   - Abra o terminal e instale o Django usando pip:
+     ```
+     pip install django
+     ```
+
+2. **Criar um novo projeto Django**:
+   - No terminal, navegue até o diretório onde você deseja criar seu projeto.
+   - Execute o comando para criar um novo projeto Django:
+     ```
+     ```
+   - Substitua `nome_do_projeto` pelo nome desejado para seu projeto.
+
+3. **Navegar para o diretório do projeto**:
+   - Mude para o diretório do projeto recém-criado:
+     ```
+     cd nome_do_projeto
+     ```
+
+4. **Criar um aplicativo Django**:
+   - Um projeto Django pode conter vários aplicativos. Crie seu primeiro aplicativo com:
+     ```
+     ```
+   - Substitua `nome_do_app` pelo nome desejado para seu aplicativo.
+
+5. **Configurar o aplicativo no projeto**:
+   - Abra o arquivo `settings.py` dentro do diretório do projeto (`nome_do_projeto/nome_do_projeto/settings.py`).
+   - Encontre a lista `INSTALLED_APPS` e adicione o nome do seu aplicativo à lista.
+
+6. **Realizar as migrações iniciais**:
+   - Execute as migrações iniciais para configurar o banco de dados padrão:
+     ```
+     python manage.py migrate
+     ```
+
+7. **Iniciar o servidor de desenvolvimento**:
+   - Inicie o servidor de desenvolvimento do Django com:
+     ```
+     ```
+   - Abra um navegador e acesse `http://127.0.0.1:8000/` para ver o projeto rodando.
+
+8. **Desenvolver seu projeto**:
+   - A partir daqui, você pode começar a desenvolver seu projeto, criando modelos, views, templates e muito mais.
+
+Lembre-se de consultar a documentação oficial do Django para obter mais detalhes e melhores práticas.
